@@ -39,6 +39,7 @@ Follow these steps to run the project on your local machine:
 ### 1️⃣ Clone the repository
 ```bash
 git clone https://github.com/Lajpatgautam/react-quiz-app.git
+
 ## 📸 Screenshots
 
 ### Home Screen
