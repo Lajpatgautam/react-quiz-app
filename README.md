@@ -74,7 +74,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 ## Screenshots
 
 ### Home Screen
-![Home Screen](./Screenshots/home.png)
+![Home Screen](./screenshots/home.png)
 
 ### Result Screen
-![Result Screen](./Screenshots/result.png)
+![Result Screen](./screenshots/result.png)
