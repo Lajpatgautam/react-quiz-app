@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: Service
+
+metadata:
+  name: react-quiz-service
+
+spec:
+  selector:
+    app: react-quiz
+
+  ports:
+  - port: 80
+    targetPort: 80
+
+  type: NodePort

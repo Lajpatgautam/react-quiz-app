@@ -1,0 +1,26 @@
+apiVersion: apps/v1
+kind: Deployment
+
+metadata:
+  name: react-quiz-deployment
+
+spec:
+  replicas: 2
+
+  selector:
+    matchLabels:
+      app: react-quiz
+
+  template:
+    metadata:
+      labels:
+        app: react-quiz
+
+    spec:
+      containers:
+      - name: react-quiz
+        image: react-quiz-app:v1
+        imagePullPolicy: Never
+
+        ports:
+        - containerPort: 80
